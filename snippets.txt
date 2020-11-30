@@ -1,0 +1,13 @@
+A quick reference for things that I found useful from time to time
+
+## Replace literal \n with actual newline
+# This is a two-line operation
+sed 's/\\n/\
+/g'
+# similar but with awk
+awk '{gsub(/\\n/,"\n");}1;'
+
+
+## Get certificate metdata via CLI
+# need openssl installed
+openssl x509 -text -noout -in certificate.crt
