@@ -1,0 +1,1 @@
+This repository is a place to stash various scripts that were created for administration and security-related tasks.  There is no overall theme to this repo and this may contain a mix of scripting languages.
