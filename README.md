@@ -28,6 +28,8 @@ If you do not have or use Delinea Secret Server Cloud, the scripts can modified 
 
 ## RevokeUserSessions.ps1
 - Input parameter -userId is the email address / username
+- The Microsoft Graph Powershell modules need to be present
+    - Install-Module Microsoft.Graph.Users.Actions
 - Script will revoke M365 session, revoke an Okta session, and suspend the user in Okta 
 - If not using Secret Server
     - Lines 28-40: can be commented out
